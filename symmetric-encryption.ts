@@ -6,7 +6,7 @@ import { createCipheriv, randomBytes, createDecipheriv } from 'crypto'
 
 const message = 'i like turtles';
 const key = 'this is a key!';
-const iv = randomBytes(16);
+const iv = randomBytes(16);//random array of bytes - used to randomize encrypting, (kako ne bi isti delovi plaintext-a imali isti oblik u cipertextu)
 
 const cipher = createCipheriv('aes256', key, iv); //Cipher is an algorithm for creating Cipertext based on cryptography standard, key, and iv
 
