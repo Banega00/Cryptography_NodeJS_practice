@@ -3,7 +3,7 @@ import { generateKeyPairSync, privateDecrypt, publicEncrypt } from 'crypto';
 //RSA is algorithm for generating keypair
 //private and public keys are mathematically connectede to each other
 //messages encrypted with public key can only be decrypted with corresponding private key and vice versa 
-const { privateKey, publicKey } = generateKeyPairSync('rsa', {
+export const { privateKey, publicKey } = generateKeyPairSync('rsa', {
   modulusLength: 2048, // the length of your key in bits
   publicKeyEncoding: {
     type: 'spki', // recommended to be 'spki' by the Node.js docs
