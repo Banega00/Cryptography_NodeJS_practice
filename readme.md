@@ -1,5 +1,5 @@
 ## Most Common Cryptographic concepts
-
+[![My Skills](https://skillicons.dev/icons?i=nodejs,ts)](https://skillicons.dev)
 
 Useful links:
 https://fireship.io/lessons/node-crypto-examples/
